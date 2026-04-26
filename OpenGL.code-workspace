@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"glad.h": "c",
+			"string.h": "c",
+			"ios": "cpp",
+			"vector": "cpp",
+			"type_traits": "cpp"
+		}
+	}
+}
