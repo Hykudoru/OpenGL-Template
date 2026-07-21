@@ -18,15 +18,18 @@
                 "main.cpp",
                 "-o",
                 "engine.exe",
-                "-Iinclude",
-                "-I${workspaceFolder}",
+                "-Iinclude",                // where to find header files
+                "-Iinclude/glad",           // where to find header files
+                "-Iinclude/GLFW",           // where to find header files
+                "-Iinclude/KHR",           // where to find header files
+                "-I${workspaceFolder}",     // where to find header files
                 "-L${workspaceFolder}/lib",
                 "-lglfw3",
                 "-lopengl32",
                 "-lgdi32"
             ],
             "options": {
-                "cwd": "${fileDirname}"
+                "cwd": "${workspaceFolder}"
             },
             "problemMatcher": [
                 "$gcc"
